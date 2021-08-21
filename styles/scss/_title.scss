@@ -1,0 +1,17 @@
+.todo-app__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+    color: white;
+}
+
+.todo-app__heading {
+    margin: 0;
+}
+
+.todo-app__sun {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,84 @@
+body {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.todo-app__heading {
+    font-size: 1.7rem;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+.todo-app__list {
+    font-size: 13px;
+}
+
+input {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $primary-light-color;
+}
+
+::-webkit-input-placeholder {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+::-moz-placeholder {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+:-ms-input-placeholder {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+:-moz-placeholder {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+.btn-clear {
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+.btn-clear:hover {
+    color: $primary-light-color-hover;
+}
+
+.btn-clear:active {
+    color: $primary-light-color-active;
+}
+
+.todo-app__item-counter {
+    font-size: 13px;
+    color: $secondary-very-dark-color;
+}
+
+.btn-filter {
+    font-size: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    color: $secondary-dark-color;
+}
+
+.btn-filter:hover {
+    color: $primary-light-color-hover;
+}
+
+.btn-filter:active {
+    color: $primary-light-color-active;
+}
+
+.todo-app__drag {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: $secondary-very-dark-color;
+}

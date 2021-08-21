@@ -1,0 +1,66 @@
+$breakpoint-mobile: 375px;
+$breakpoint-desktop:1440px;
+@media (max-width:$breakpoint-mobile) {
+    body {
+        background-image: url(../../images/bg-mobile-dark.jpg)
+    }
+}
+
+@media (min-width:$breakpoint-desktop) {
+    body {
+        background-image: url(../../images/bg-desktop-dark.jpg)
+    }
+    .todo-app__title {
+        margin-top: 79px;
+    }
+    .todo-app__heading {
+        font-size: 2.5rem;
+        letter-spacing: 15px;
+    }
+    .todo-app__sun {
+        width: 26px;
+        height: 26px;
+    }
+    .todo-app__item--new {
+        margin-top: 38px;
+    }
+    .todo-app__list {
+        margin-top: 19px;
+        font-size: 18px;
+    }
+    .todo-app__item {
+        width: 540px;
+        height: 65px;
+    }
+    input {
+        font-size: 18px;
+    }
+     ::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+     ::-moz-placeholder {
+        font-size: 18px;
+    }
+     :-ms-input-placeholder {
+        font-size: 18px;
+    }
+     :-moz-placeholder {
+        font-size: 18px;
+    }
+    .todo-app__btn-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .todo-app__task {
+        width: 540px;
+    }
+    .todo-app__item-counter {
+        width: 540px;
+    }
+    .todo-app__counter {
+        font-size: 16px;
+    }
+    .btn-clear {
+        font-size: 16px;
+    }
+}

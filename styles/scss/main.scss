@@ -1,0 +1,20 @@
+@import "colors";
+@import "base";
+@import "typography";
+@import "title";
+@import "list";
+@import "btn";
+@import "counter";
+@import "media";
+body {
+    margin: 0;
+    background-color: $primary-dark-color;
+    color: $primary-light-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+}

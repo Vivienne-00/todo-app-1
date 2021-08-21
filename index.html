@@ -1,36 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Todo app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
+
 <body>
+    <main>
+        <div class="todo-app">
+            <div class="todo-app__title">
+                <h1 class="todo-app__heading">Todo</h1>
+                <img class="todo-app__sun" alt="sun" src="images/icon-sun.svg">
+                <!---width und height für css rausnehmen und auf display:inline-block stellen-->
+            </div>
 
-  Todo
+            <div class="todo-app__item todo-app__item--new">
+                <li class="todo-app__new">
+                    <div class="todo-app__btn-container">
+                        <input type="checkbox" id="btn1">
+                        <label for="btn1"></label>
+                    </div>
+                    <input type="text" class="todo-app__item-new" placeholder="Create a new todo...">
+                    <!--Input und Zähler aus der Liste rausnehmen, nur Tasks in der Liste lassen-->
+                </li>
+            </div>
 
-  <!-- Add dynamic number --> items left
+            <ul class="todo-app__list">
+                <div class="todo-app__item todo-app__item--first">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="btn2">
+                            <label for="btn2"></label>
+                        </div>
+                        <div>Complete online JavaScript course</div>
+                        <!-- <button class="todo-app__del"></button>-->
+                    </li>
+                </div>
+                <div class="todo-app__item">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="box1">
+                            <label for="checkbox"></label>
+                        </div>
+                        <div>Jog around the park 3x</div>
+                    </li>
+                </div>
+                <div class="todo-app__item">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="box1">
+                            <label for="checkbox"></label>
+                        </div>
+                        <div>10 minutes meditation</div>
+                    </li>
+                </div>
+                <div class="todo-app__item">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="box1">
+                            <label for="checkbox"></label>
+                        </div>
+                        <div>Read for 1 hour</div>
+                    </li>
+                </div>
+                <div class="todo-app__item">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="box1">
+                            <label for="checkbox"></label>
+                        </div>
+                        <div>Pick up groceries</div>
+                    </li>
+                </div>
+                <div class="todo-app__item">
+                    <li class="todo-app__task">
+                        <div class="todo-app__btn-container">
+                            <input type="checkbox" id="box1">
+                            <label for="checkbox"></label>
+                        </div>
+                        <div>Complete Todo App on Frontend Mentor</div>
+                    </li>
+                </div>
+            </ul>
+            <div>
+                <div class="todo-app__item todo-app__item--last">
+                    <li class="todo-app__item-counter">
+                        <div class="todo-app__counter">items left</div>
+                        <button class="btn-clear">Clear Completed</button>
+                    </li>
+                </div>
+                <div class="todo-app__item todo-app__item--type">
+                    <div class="todo-app__item-filter">
+                        <button class="btn-filter">All</button>
+                        <button class="btn-filter">Active</button>
+                        <button class="btn-filter">Completed</button>
+                    </div>
+                </div>
+            </div>
+            <p class="todo-app__drag">Drag and drop to reorder list</p>
 
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        </div>
+    </main>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </footer>
 </body>
+
 </html>

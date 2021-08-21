@@ -1,0 +1,11 @@
+body {
+    counter-reset: task;
+}
+
+.todo-app__task {
+    counter-increment: task;
+}
+
+.todo-app__counter::before {
+    content: counter(task)" ";
+}

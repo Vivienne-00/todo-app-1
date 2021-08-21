@@ -1,0 +1,76 @@
+.todo-app__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.todo-app__item {
+    display: flex;
+    align-items: center;
+    width: 325px;
+    height: 52px;
+    background-color: $primary-very-dark-desaturated-color;
+    border-top: $secondary-very-dark-color;
+    border-top-style: solid;
+    border-width: 0.5px;
+}
+
+.todo-app__item--new {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.todo-app__item-new {
+    background-color: $primary-very-dark-desaturated-color;
+    border: none;
+    padding: 0;
+}
+
+.todo-app__new {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 325px;
+}
+
+.todo-app__task {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 325px;
+}
+
+.todo-app__item--first {
+    margin-top: 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.todo-app__item--last {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.todo-app__item-counter {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 325px;
+    margin-left: 18px;
+    margin-right: 13px;
+}
+
+.todo-app__item--type {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}

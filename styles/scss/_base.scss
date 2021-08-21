@@ -1,0 +1,13 @@
+html *,
+html *::before,
+html *::after {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0;
+}
+
+.todo-app__drag {
+    margin-top: 47px;
+}
